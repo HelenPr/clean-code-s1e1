@@ -9,49 +9,49 @@
 
 <body>
   <div class="header">
-    <img src="./eisenhower-matrix.jpg">
+    <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
   </div>
   <div class="todo">
     <p id="todo__add-task">
-      <label for="todo__input">Add Item</label>
+      <label for="todo__input" class="todo__task todo__task--input">Add Item</label>
       <div class="todo__input-container">
         <input id="todo__input" class="todo__input" type="text">
-        <button>Add</button>
+        <button class="todo__button">Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
-    <ul id="todo__list-incomplete">
-      <li>
-        <input type="checkbox">
-        <label class="todo__task">Pay Bills</label>
+    <h3 class="todo__heading">Todo</h3>
+    <ul id="todo__list-incomplete" class="todo__list todo__list--incomplete">
+      <li class="todo__item">
+        <input type="checkbox" class="todo__checkbox">
+        <label class="todo__task todo__task--chekbox">Pay Bills</label>
         <input type="text" class="todo__input">
         <button class="todo__button todo__button--edit">Edit</button>
         <button class="todo__button todo__button--delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="todo__icon">
         </button>
       </li>
       <li class="todo__item todo__item--edit-mode">
-        <input type="checkbox">
-        <label class="todo__task">Go Shopping</label>
+        <input type="checkbox" class="todo__checkbox">
+        <label class="todo__task todo__task--chekbox">Go Shopping</label>
         <input type="text" value="Go Shopping" class="todo__input">
         <button class="todo__button todo__button--save">Save</button>
         <button class="todo__button todo__button--delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="todo__icon">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
-    <ul id="todo__list-completed">
-      <li>
-        <input type="checkbox" checked>
-        <label class="todo__task">See the Doctor</label>
+    <h3 class="todo__heading">Completed</h3>
+    <ul id="todo__list-completed" class="todo__list todo__list--completed">
+      <li class="todo__item">
+        <input type="checkbox" class="todo__checkbox" checked>
+        <label class="todo__task todo__task--chekbox">See the Doctor</label>
         <input type="text" class="todo__input">
         <button class="todo__button todo__button--edit">Edit</button>
         <button class="todo__button todo__button--delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="todo__icon">
         </button>
       </li>
     </ul>
