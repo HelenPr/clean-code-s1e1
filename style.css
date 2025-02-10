@@ -36,7 +36,7 @@ body {
 .todo__task--chekbox {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo__input-container {
@@ -138,7 +138,7 @@ body {
 }
 
 .todo__item > .todo__input {
-  width: 226px
+  width: 226px;
 }
 
 .todo__button--delete .todo__icon {
@@ -153,18 +153,18 @@ body {
 
 /* Completed */
 #todo__list-completed .todo__task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo__item .todo__input {
-  display: none
+  display: none;
 }
 
 .todo__item--edit-mode .todo__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo__item--edit-mode .todo__task {
