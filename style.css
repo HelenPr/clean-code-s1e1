@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header {
     text-align: center;
   }
@@ -44,19 +44,19 @@ body {
 }
 
 .todo__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .todo__item,
 .todo__heading {
-  list-style:none;
+  list-style: none;
 }
 
 .todo__checkbox,
 .todo__input,
 .todo__button {
-  outline:none;
+  outline: none;
 }
 
 .todo__button {
@@ -159,14 +159,14 @@ body {
 
 /* Edit Task */
 .todo__item .todo__input {
-  display:none
+  display: none
 }
 
 .todo__item--edit-mode .todo__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__item--edit-mode .todo__task {
-  display:none;
+  display: none;
 }
