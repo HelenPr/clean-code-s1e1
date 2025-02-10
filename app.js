@@ -128,8 +128,9 @@ var taskIncomplete = function () {
   bindTaskEvents(listItem, taskCompleted);
 };
 
-var ajaxRequest = function () {
+var ajaxRequest = function (e) {
   console.log("AJAX Request");
+  e.preventDefault();
 };
 
 //The glue to hold it all together.
