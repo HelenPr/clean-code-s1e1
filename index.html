@@ -8,20 +8,20 @@
 </head>
 
 <body>
-  <div class="header">
+  <header class="header">
     <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
-  </div>
-  <div class="todo">
-    <p id="todo__add-task">
+  </header>
+  <main class="todo">
+    <form id="todo__add-task">
       <label for="todo__input" class="todo__task todo__task--input">Add Item</label>
       <div class="todo__input-container">
         <input id="todo__input" class="todo__input" type="text">
         <button class="todo__button">Add</button>
       </div>
-    </p>
+    </form>
     <h3 class="todo__heading">Todo</h3>
     <ul id="todo__list-incomplete" class="todo__list todo__list--incomplete">
       <li class="todo__item">
@@ -55,7 +55,7 @@
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
