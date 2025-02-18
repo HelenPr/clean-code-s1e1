@@ -32,7 +32,7 @@ var createNewTaskElement = function (taskString) {
   listItem.className = "todo__item";
 
   label.innerText = taskString;
-  label.className = "todo__task todo__task--chekbox";
+  label.className = "todo__label todo__label--chekbox";
 
   //Each elements, needs appending
   checkBox.type = "checkbox";
